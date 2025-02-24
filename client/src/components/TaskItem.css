@@ -1,0 +1,53 @@
+/* TaskItem.css */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f7fafc; /* Light gray background */
+  }
+  
+  .task-text {
+    flex: 1;
+    color: #4a5568; /* Dark gray */
+    font-size: 16px;
+  }
+  
+  .task-text.completed {
+    text-decoration: line-through;
+    color: #cbd5e0; /* Light gray for completed task */
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .task-button {
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .task-button:hover {
+    color: #3182ce; /* Blue hover effect */
+  }
+  
+  .update-button:hover {
+    color: #3182ce;
+  }
+  
+  .delete-button:hover {
+    color: #e53e3e; /* Red hover effect */
+  }
+  

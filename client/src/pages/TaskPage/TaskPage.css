@@ -1,0 +1,83 @@
+/* TaskPage.css */
+.task-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+  }
+  
+  .task-input button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-input button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item span {
+    font-size: 16px;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-item button:hover {
+    background-color: #e53935;
+  }
+  
+  .task-item button:nth-child(1) {
+    background-color: #4caf50;
+  }
+  
+  .task-item button:nth-child(1):hover {
+    background-color: #45a049;
+  }
+
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  
